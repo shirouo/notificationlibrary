@@ -1,4 +1,4 @@
---// done w this sheeeiitt
+--// shirou reupload, this was from my outfit loader but wanted it to be its own thing.
 
 function createBaseNotifications()
 if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("NotificationHolder") then

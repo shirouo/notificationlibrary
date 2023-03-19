@@ -196,8 +196,8 @@ args.TweenVerticalSpeed = args.TweenVerticalSpeed or args.TweenSpeed
 args.Title = args.Title or "Title"
 args.Text = args.Text or "Text"
 
-args.Button1 = args.Button1 or "Yes"
-args.Button2 = args.Button2 or "No"
+args.TrueText = args.TrueText or "Yes"
+args.FalseText = args.FalseText or "No"
 
 args.Duration = args.Duration or 5
 args.Callback = args.Callback or function() warn("No callback for notif") end
@@ -221,8 +221,8 @@ notif.Position = UDim2.new(1, 300, 1, -5)
 
 notif.Transparency = 0.05
 
-notif.True.Text = args.Button1
-notif.False.Text = args.Button2
+notif.True.Text = args.TrueText
+notif.False.Text = args.FalseText
 
 task.spawn(function()
 task.wait(args.Duration + args.TweenInSpeed)
